@@ -20,6 +20,4 @@ TODO: Домашнее задание:
  
     
 
- * ***Выполнение***:
-
-[HomeWork_3](https://github.com/STGorbunovDA/SoftwareArchitecture/tree/main/HomeWork_3/CarService/CarService)
+ * ***Выполнение***: [HomeWork_3](https://github.com/STGorbunovDA/SoftwareArchitecture/tree/main/HomeWork_3/CarService/CarService)
