@@ -1,0 +1,32 @@
+﻿@inject ITicketService TicketService
+
+@if (TicketService.Tickets == null || TicketService.Tickets.Count == 0)
+{
+    <span>Loading Tickets...</span>
+}
+else
+{
+    <ul class="list-unstyled">
+        @foreach (var ticket in TicketService.Tickets)
+        {
+            <li class="media my-3">
+                <div class="media-body">
+                    <a href="/ticket/@ticket.Id">
+                        <h4 class="mb-0">@ticket.FromStation - @ticket.ToStation</h4>
+                    </a>
+                    <p>@ticket.DatePurchase</p>
+                    <h5 class="price">
+                        @ticket.Price ₽
+                    </h5>
+                </div>
+            </li>
+        }
+    </ul>
+}
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        await TicketService.GetTicket();
+    }
+}

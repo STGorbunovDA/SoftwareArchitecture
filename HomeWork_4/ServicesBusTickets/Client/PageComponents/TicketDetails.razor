@@ -1,0 +1,37 @@
+﻿@page "/ticket/{id:int}"
+@inject ITicketService TicketService
+
+@if (ticket == null)
+{
+    <span>@message</span>
+}
+else
+{
+    <div class="media">
+        <div class="media-body">
+            <h2 class="mb-0">@ticket.FromStation - @ticket.ToStation</h2>
+            <p>@ticket.DatePurchase</p>
+            <h4 class="price">
+                $@ticket.Price
+            </h4>
+        </div>
+    </div>
+
+}
+
+@code {
+    private Ticket? ticket = null;
+    private string message = string.Empty;
+
+    [Parameter] public int Id { get; set; }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        message = "Loading product...";
+
+        var result = await TicketService.GetTicket(Id);
+        if (!result.Success) message = result.Message;
+        else ticket = result.Data;
+
+    }
+}
