@@ -9,3 +9,5 @@
 [Домашнее задание 4](https://github.com/STGorbunovDA/SoftwareArchitecture/blob/main/HomeWork_4.md)
 
 [Домашнее задание 5](https://github.com/STGorbunovDA/SoftwareArchitecture/blob/main/HomeWork_5.md)
+
+[Домашнее задание 6](https://github.com/STGorbunovDA/SoftwareArchitecture/blob/main/HomeWork_6.md)
