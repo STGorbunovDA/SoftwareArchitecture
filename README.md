@@ -15,3 +15,5 @@
 [Домашнее задание 7](https://github.com/STGorbunovDA/SoftwareArchitecture/blob/main/HomeWork_7.md)
 
 [Домашнее задание 8](https://github.com/STGorbunovDA/SoftwareArchitecture/blob/main/HomeWork_8.md)
+
+[Домашнее задание 9](https://github.com/STGorbunovDA/SoftwareArchitecture/blob/main/HomeWork_9.md)
