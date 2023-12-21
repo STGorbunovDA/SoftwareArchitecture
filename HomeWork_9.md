@@ -4,4 +4,4 @@
 
  
     
- * ***Выполнение***: [HomeWork_9](https://github.com/STGorbunovDA/SoftwareArchitecture/tree/main/HomeWork_9/MyFirstWebApplication\MyFirstWebApplication)
+ * ***Выполнение***: [HomeWork_9](https://github.com/STGorbunovDA/SoftwareArchitecture/tree/main/HomeWork_9/MyFirstWebApplication/MyFirstWebApplication)
