@@ -21,5 +21,8 @@
 [Домашнее задание 10](https://github.com/STGorbunovDA/SoftwareArchitecture/blob/main/HomeWork_10.md)
 
 [Домашнее задание 11](https://github.com/STGorbunovDA/SoftwareArchitecture/blob/main/HomeWork_11.md)
+<<<<<<< HEAD
 
 [Домашнее задание 12](https://github.com/STGorbunovDA/SoftwareArchitecture/blob/main/HomeWork_12.md)
+=======
+>>>>>>> fbd902b43200a117d506ff6b3290a542991b7679
