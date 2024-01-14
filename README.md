@@ -20,4 +20,6 @@
 
 [Домашнее задание 10](https://github.com/STGorbunovDA/SoftwareArchitecture/blob/main/HomeWork_10.md)
 
-[Домашнее задание 10](https://github.com/STGorbunovDA/SoftwareArchitecture/blob/main/HomeWork_11.md)
+[Домашнее задание 11](https://github.com/STGorbunovDA/SoftwareArchitecture/blob/main/HomeWork_11.md)
+
+[Домашнее задание 12](https://github.com/STGorbunovDA/SoftwareArchitecture/blob/main/HomeWork_12.md)
